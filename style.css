@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background: url(/img/Background1.jpg);
+  background: url(img/Background1.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
