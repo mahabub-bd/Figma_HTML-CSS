@@ -256,7 +256,7 @@ input[type="text"]:nth-child(4) {
   outline: none;
   height: 35px;
   width: 800px;
-  color: red;
+  color:#fff;
   font-size: 14px;
   margin-bottom: 20px;
   margin-left: 15px;
