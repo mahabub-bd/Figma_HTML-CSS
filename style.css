@@ -13,6 +13,7 @@ body {
   background-size: cover;
 }
 .container {
+  min-width: 1080px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 
@@ -74,7 +75,7 @@ body {
 
 .image-container {
   display: grid;
-  grid-template-columns: (auto-fit,minmax(300,1fr))
+  grid-template-columns:repeat(2,1fr);
   justify-content: space-between;
   align-items: center;
   margin: 20px 20px;
@@ -85,7 +86,7 @@ body {
 }
 
 .image img {
-  width: 75%;
+  width: 60%;
   border-radius: 4px;
 }
 .image-text {
@@ -117,7 +118,7 @@ body {
 }
 .card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2,1fr);
   justify-content: space-around;
   grid-gap: 10px;
   align-items: center;
@@ -429,4 +430,5 @@ background: #efefef;
 small {
   margin-bottom: 30px;
   color: #fff;
+  letter-spacing: 10%;
 }
